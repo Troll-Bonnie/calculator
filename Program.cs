@@ -3,27 +3,30 @@ Console.WriteLine("Main Module");
 MenuManager menu = new MenuManager();
 DialogManager dialog = new DialogManager();
 int choice = 0;
+bool cont = true;
 do
 {
     Console.Clear();
     menu.Display();
-    menu.GetChoice();
+    choice = menu.GetChoice();
+    Console.WriteLine(choice);
     switch (choice)
     {
         case 1:
             dialog.AddDialog();
             break;
-        case 1:
+        case 2:
             dialog.SubDialog();
             break;
-        case 1:
+        case 3:
             dialog.MultDialog();
             break;
-        case 1:
+        case 4:
             dialog.DivDialog();
             break;
         default:
             break;
     }
+    cont = menu.AllowContinue();
 
-}while(menu.AllowContinue() || choice == 5);
+}while(cont || choice == 5);
