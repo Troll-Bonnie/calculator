@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qYAX6YAtOXUOi2NOKMJk6FYFTPPndmFOjgYw+CXzGIUzcM2vo4i4bxNZ7yh0Ia6hT3v/v89MAdLyHf0Yyy09Iw==",
+  "dgSpecHash": "k+1CuSU/3j05CBuPOu/6nEIVkbT/6pnD1e+F+5LHevKr6oe5IRJhezrKB8Cug5/pSoY+GZzuPFBOPiZZ0WcVNA==",
   "success": true,
-  "projectFilePath": "D:\\SPM-Projects\\SPM\\lead\\Calculator\\Calculator.csproj",
+  "projectFilePath": "D:\\SPM-Projects\\SPM\\dev2\\calculator\\Calculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
